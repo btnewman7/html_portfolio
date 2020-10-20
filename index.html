@@ -17,6 +17,19 @@
             text-align: center;
             font-size: 50px;
         }
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        /* Change color on hover */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
         .row {
             margin: 8px - 16px;
         }
@@ -68,7 +81,8 @@
     <div class="topnav" style="background-color: rgb(49, 49, 56); 
         text-align:center;
         height: 1.25cm;
-        font-size: 30px;">
+        font-size: 30px;
+        overflow: hidden;">
     <style>
         a {
             color: rgb(255, 255, 255);
@@ -85,7 +99,11 @@
  <div class="row">
      <div class="column">
         <div class="content">
-            <img src="images/headshot.jpg" alt="Headshot" style="Width:100%"; height="325"; width="100";>
+            <img src="images/headshot.jpg" 
+                alt="Headshot" 
+                style="Width:100%"; 
+                height="375"; 
+                width="100";>
             <h2>Weclome to my Portfolio!</h2>
             <p>Here's a little bit more about who I am...</p>
         </div>  
@@ -94,14 +112,17 @@
         <div class="content">
             <img src="images/data-science.jpg" alt="Data Science" style="Width:100%">
             <h2>Projects</h2>
-            <p>These are a few of the projects I've completed recently</p>
+            <li>Data Analytics</li>
+            <br/><li>Software Development</li>
         </div>  
      </div>
      <div class="column">
         <div class="content">
             <img src="images/languages.png" alt="Languages" style="Width:100%">
             <h2>Skills</h2>
-            <p>A quick showcase of the coding environments and languages I'm familiar with</p>
+            <li>HTML</li>
+            <br/><li>CSS</li>
+            <br/><li>Python</li>
         </div>  
     </div>
  </div>
